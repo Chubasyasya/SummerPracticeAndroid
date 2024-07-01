@@ -1,4 +1,9 @@
-package ru.itis.summerpractice24.myapplication
+package ru.itis.summerpractice24.myapplication.factories
+
+import ru.itis.summerpractice24.myapplication.models.Crossover
+import ru.itis.summerpractice24.myapplication.models.Minivan
+import ru.itis.summerpractice24.myapplication.models.SUV
+import ru.itis.summerpractice24.myapplication.models.Sedan
 
 class CarBuilder {
     private var mark = ""

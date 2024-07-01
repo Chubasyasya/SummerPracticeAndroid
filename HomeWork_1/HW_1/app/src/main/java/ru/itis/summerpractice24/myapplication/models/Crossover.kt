@@ -1,4 +1,4 @@
-package ru.itis.summerpractice24.myapplication
+package ru.itis.summerpractice24.myapplication.models
 
 class Crossover(
     mark: String,

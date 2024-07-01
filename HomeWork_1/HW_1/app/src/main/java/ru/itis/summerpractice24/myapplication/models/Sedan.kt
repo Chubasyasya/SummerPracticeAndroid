@@ -1,4 +1,4 @@
-package ru.itis.summerpractice24.myapplication
+package ru.itis.summerpractice24.myapplication.models
 
 class Sedan(
     mark: String,

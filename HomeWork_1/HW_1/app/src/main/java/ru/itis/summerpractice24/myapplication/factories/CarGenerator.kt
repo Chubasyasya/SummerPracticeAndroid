@@ -1,4 +1,6 @@
-package ru.itis.summerpractice24.myapplication
+package ru.itis.summerpractice24.myapplication.factories
+
+import ru.itis.summerpractice24.myapplication.models.Car
 
 
 class CarGenerator {
@@ -25,7 +27,7 @@ class CarGenerator {
     private val numberOfSeats = (2..8).toList().toIntArray()
 
 
-    fun generateMarkAndModel():CarBuilder{
+    fun generateMarkAndModel(): CarBuilder {
         val randomEntry = models.entries.random()
         val randomKey = randomEntry.key
         val randomValue = randomEntry.value

@@ -1,4 +1,7 @@
-package ru.itis.summerpractice24.myapplication
+package ru.itis.summerpractice24.myapplication.race
+
+import ru.itis.summerpractice24.myapplication.factories.CarGenerator
+import ru.itis.summerpractice24.myapplication.models.Car
 
 class Race {
     var currentYear = 2024
