@@ -22,8 +22,8 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
                             resId = R.id.action_profileFragment_to_profileResultFragment,
                             args = ProfileResultFragment.bundle(
                                 name = editTextName.text.toString(),
-                                email = editTextName.text.toString(),
-                                birthDate = editTextName.text.toString(),
+                                email = editTextEmail.text.toString(),
+                                birthDate = editTextBirthdate.text.toString(),
                             )
                         )
                     }

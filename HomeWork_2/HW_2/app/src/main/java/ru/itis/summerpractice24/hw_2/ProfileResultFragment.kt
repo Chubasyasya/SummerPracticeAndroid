@@ -21,7 +21,7 @@ class ProfileResultFragment : Fragment(R.layout.fragment_profile_result) {
 
 
         binding?.apply {
-            tvTitle.text = "now your name is - $name"
+            tvTitle.text = "name: $name\nemail: $email\nage: $age"
         }
     }
 
